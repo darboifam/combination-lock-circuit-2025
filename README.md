@@ -54,11 +54,9 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Documentation
+## Report
 
-- 📄 Full Report: [`report/EGR211FinalProjectReport.pdf`](report/EGR211FinalProjectReport.pdf)
-- 🧾 Editable Report Source: [`report/Final_Project.docx`](report/Final_Project.docx)
-
+- 📄 Final Report (PDF): [EGR211FinalProjectReport.pdf](report/EGR211FinalProjectReport.pdf)
 ---
 
 ## Photos
