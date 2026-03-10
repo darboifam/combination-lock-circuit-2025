@@ -59,23 +59,30 @@ That node is evaluated by comparator stages that drive:
 - 📄 Full Report: [`report/EGR211FinalProjectReport.pdf`](report/EGR211FinalProjectReport.pdf)
 - 🧾 Editable Report Source: [`report/Final_Project.docx`](report/Final_Project.docx)
 
-### Key Figures / Photos
-- Multisim schematic:
-  - ![Schematic](assets/schematic_multisim.png)
-- Breadboard builds:
-  - ![Tumbler](assets/breadboard_tumbler.jpg)
-  - ![Win Branch](assets/breadboard_win.jpg)
-  - ![Lose Branch](assets/breadboard_lose.jpg)
-  - ![Arduino + Buzzers](assets/breadboard_arduino_buzzers.jpg)
+---
 
-### Measurements (Tables / Scope)
-- Tumbler voltage table: ![Tumbler Table](assets/table_tumbler_outputs.png)
-- Comparator thresholds: ![Comparator Table](assets/table_comparator.png)
-- 555 timing and I/O: ![555 Tables](assets/table_555_values.png)
-- Oscilloscope captures:
-  - ![Node Voltage](assets/scope_waveforms/scope_node_voltage.jpg)
-  - ![Win/Lose Timers](assets/scope_waveforms/scope_win_lose.jpg)
-  - ![Alarm Response](assets/scope_waveforms/scope_alarm.jpg)
+## Photos
+
+### MultiSIM Circuit Diagram
+![MultiSIM Circuit Diagram](<assets/photos/MultiSIM Circuit Diagram.png>)
+
+### Tumbler System
+![Tumbler System](<assets/photos/Tumbler System.png>)
+
+### Win Branch
+![Win Branch](<assets/photos/Win Branch.png>)
+
+### Lose Branch
+![Lose Branch](<assets/photos/Lose Branch.png>)
+
+### Arduino System and Buzzers
+![Arduino System and Buzzers](<assets/photos/Arduino System and Buzzers.png>)
+
+### IO Table and Case Measurements
+![IO Table and Case Measurements](<assets/photos/IO Table and Case Measurements.png>)
+
+### IC555 Measurements and IO Table
+![IC555 Measurements and IO Table](<assets/photos/IC555 Measurements and IO Table.png>)
 
 ---
 
@@ -96,16 +103,6 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Reproducing the Build
-
-1. Build the **tumbler network** on the breadboard and verify the combination node voltage changes.
-2. Add the **comparators** and verify the output flips around the chosen threshold.
-3. Add **555 timers** for the Win/Lose outputs and verify timed pulses.
-4. Add the **Arduino + buzzers** for 3-attempt alarm behavior.
-5. Capture measurements (DMM + scope) and compare to the report tables.
-
----
-
 ## Notes / Lessons Learned
 
 - Edge-triggering behavior can occur when pressing and releasing confirm (comparator transitions can trigger timers more than once).
@@ -113,14 +110,6 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## License
-
-Choose one:
-- MIT (simple open-source)  
-- or “All rights reserved” if you only want it as class documentation
-
----
-
 ## Acknowledgements
 
-Thanks to the EGR 211 course staff and lab resources used for measurement and validation.
+Huge thank you to Professor Moorthy and Professor Vardakas for all the assistance!
