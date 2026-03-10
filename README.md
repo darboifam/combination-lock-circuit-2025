@@ -21,7 +21,7 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Demo / Behavior Summary
+## Behavior Summary
 
 ### Inputs
 - 8 keypad switches (code entry)
@@ -34,7 +34,7 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Circuit Architecture (High Level)
+## Circuit Architecture
 
 1. **Tumbler Network (Analog Keypad)**
    - Resistor/switch network creates a voltage divider at the combination node.
@@ -101,7 +101,7 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Notes / Lessons Learned
+## Notes
 
 - Edge-triggering behavior can occur when pressing and releasing confirm (comparator transitions can trigger timers more than once).
 - Breadboard builds can introduce timing variation vs calculations (component tolerance).
