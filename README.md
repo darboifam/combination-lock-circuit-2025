@@ -84,7 +84,7 @@ That node is evaluated by comparator stages that drive:
 
 ---
 
-## Bill of Materials (Typical)
+## Bill of Materials
 
 - LM393 comparator IC(s)
 - NE555 timer IC(s)
@@ -104,7 +104,7 @@ That node is evaluated by comparator stages that drive:
 ## Notes / Lessons Learned
 
 - Edge-triggering behavior can occur when pressing and releasing confirm (comparator transitions can trigger timers more than once).
-- Breadboard builds can introduce timing variation vs calculations (component tolerance + parasitics).
+- Breadboard builds can introduce timing variation vs calculations (component tolerance).
 
 ---
 
